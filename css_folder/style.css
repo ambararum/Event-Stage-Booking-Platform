@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    background-color: #e9ecef; /* Change as necessary, or use a variable */
+    font-family: Arial, sans-serif;
+}
+
+/* Rental and Orders Container */
+.d-flex {
+    display: flex;
+}
+
+.container {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4.text-center {
+    background-color: #35bb1d;
+    color: #fff;
+    padding: 10px 20px; /* Add padding to make the background wider */
+}
+
+/* Form Group */
+.form-group label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px; /* Adjusted for consistency */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #218838; /* Default hover color for primary button */
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Sidebar Styling */
+#sidebar {
+    height: 100vh; /* Ensure sidebar takes up the full height of the viewport */
+    position: sticky; /* Keeps the sidebar in place when scrolling */
+    top: 0;
+}
+
+.nav-link {
+    font-size: 1.2rem; /* Font size for navigation links */
+    font-weight: 600;
+    color: #2b4055;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 12px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3498db; /* Changes color on hover */
+    text-decoration: none; /* Removes underline */
+}
+
+/* Specific Button Styles */
+.btn.btn-info {
+    background-color: #3498db;
+    color: #fff;
+    border-color: #3498db;
+}
+
+.btn.btn-edit {
+    background-color: #ffc107;
+    color: #000000eb;
+}
+
+.btn.btn-cancel {
+    background-color: #dc3545;
+    color: #fff;
+}
